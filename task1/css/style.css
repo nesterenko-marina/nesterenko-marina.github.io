@@ -1,0 +1,39 @@
+body {
+    background: whitesmoke;
+    width: 1440px;
+    height: 806px;
+}
+.main {
+    width: 514px;
+    height: 756px;
+    background: white;
+    margin: 4px 463px 47px 463px;
+    padding: 53px 50px 70px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    
+}
+.headline {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+.block {
+    border-bottom: 1px solid black;
+}
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+.ref {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+ul {
+    line-height: 1.5;
+    font-size: 16px;
+}
