@@ -11,15 +11,23 @@
     font-weight: normal;
     font-style: normal;
 }
-.main {
-    background-image: url('../img/background.jpg');
-    width: 1215px;
-    height: 1064px;
+html {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
     font-family: "helvetica_neueregular";
 }
+body {
+    height: 1064px;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
 .header {
-    width: 1215px;
+    width: 100%;
     height: 36px;
     background-image: url('../img/header.png');
 }
