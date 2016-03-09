@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 511px;
+    height: 552px;
+    border-collapse: collapse;
+    border: 11px solid white;
+}
+td {
+    border: 10px solid #161616;
+    width: 80px;
+}
+#four, #seven, #eight {
+    width: 50px;
+}
+#four, #six {
+    height: 40px;
+}
+.thin {
+    height: 40px;
+}
+.last {
+    height: 40px;
+}
+.thick {
+    height: 65px;
+}
+#red {
+    background-color: #ff5937;
+}
+.yellow {
+    background-color: #fff26e;
+}
+#blue {
+    background-color: #064581;
+}
+.black {
+    background-color: #212020;
+}
+.white {
+    background-color: white;
+}
