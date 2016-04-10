@@ -101,10 +101,10 @@
     max-height: 102px;
     overflow: hidden;
 }
-.menu_li {
+.menu_item {
     list-style: none;
 }
-.menu_li a {
+.menu_item_link {
     display: block;
     float: left;
     font-size: 24px;
@@ -115,27 +115,27 @@
     margin-left: 51px;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
-.menu_li a:hover {
+.menu_item_link:hover {
     border-bottom: 2px solid #edbfff;
 }
-h1 {
+.slider_lorem_title {
     font-family: "league_gothicregular";
     font-size: 60px;
     color: white;
 }
-.lorem_header {
+.slider_lorem_header {
     font-family: "league_gothicregular";
     font-size: 32px;
     color: #edbfff;
 }
-.lorem_text {
+.slider_lorem_text {
     font-family: "open_sanslight";
     font-size: 18px;
     color: white;
     line-height: 24px;
     margin-top: 5px;
 }
-.lorem {
+.slider_lorem {
   position: absolute;
   top: 361px;
   width: 54%;
@@ -145,14 +145,14 @@ h1 {
   overflow: hidden;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
-.phone {
+.slider_phone {
     float: right;
     clear: both;
     position: absolute;
     top: 262px;
     right: 62px;
 }
-.circles {
+.slider_circles {
     position: absolute;
     float: right;
     right: 158px;
@@ -164,18 +164,18 @@ h1 {
     height: 340px;
     width: 100%;
 }
-.about {
+.violet_about {
     float: left;
     height: 200px;
     margin-top: 80px;
     text-shadow: 1px 1px 1px black;
 }
-.about_header {
+.violet_about_header {
     font-family: "league_gothicregular";
     font-size: 30px;
     color: white;
 }
-.about_text {
+.violet_about_text {
     font-family: "open_sanslight";
     font-size: 16px;
     color: white;
@@ -185,22 +185,22 @@ h1 {
     line-height: 22px;
     margin-left: 50px;
 }
-.about_text--first {
+.violet_about_text--first {
     margin-left: 62px;
 }
-.about_read {
+.violet_about_read {
     font-family: "league_gothicregular";
     font-size: 18px;
     float: right;
 }
-.about_read a {
+.violet_about_read a {
     color: white;
     text-decoration: none;
 }
-.about_read a:hover {
+.violet_about_read a:hover {
     text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
 }
-.about_icon {
+.violet_about_icon {
     float: left;
     width: 30px;
     height: 30px;
@@ -208,22 +208,22 @@ h1 {
     margin-right: 23px;
     background-image: url(../img/sprite1.png);
 }
-.about_icon--first {
+.violet_about_icon--first {
     margin-left: 12px;
 }
-.about_icon--second {
+.violet_about_icon--second {
     background-position: -31px 0;
 }
-.about_icon--third {
+.violet_about_icon--third {
     background-position: -62px 0;
 }
-.about_column {
+.violet_about_column {
     float: right;
 }
-.about--first {
+.violet_about--first {
     width: 30%;
 }
-.about--second, .about--third {
+.violet_about--second, .violet_about--third {
     width: 35%;
 }
 main {
@@ -237,26 +237,26 @@ main {
     width: 50%;
     margin-top: 99px;
 }
-.face {
+.half_face {
     float: left;
     margin-top: 18px;
 }
-.left {
+.half_left {
     max-width: 350px;
     height: 222px;
     background-image: url(../img/bg_white.png);
     padding: 30px 40px 40px 37px;
     margin-left: 23px;
 }
-.left_header {
+.half_left_header {
     font-size: 30px;
     color: #454545;
     font-family: "league_gothicregular";
 }
-.starts {
+.half_left_header_starts {
     color: #edbfff;
 }
-.left_text {
+.half_left_text {
     color: #454545;
     font-size: 16px;
     font-family: "open_sanslight";
@@ -266,23 +266,23 @@ main {
     text-overflow: clip;
         overflow: hidden;
 }
-.circles2 {
+.half_circles2 {
     width: 90px;
     margin: 0 auto;
 }
-.right_header {
+.half_right_header {
     font-size: 30px;
     color: #454545;
     font-family: "league_gothicregular";
     margin-bottom: 21px;
     margin-top: 29px;
 }
-h3 {
+.half_right_subtitle {
     font-family: "open_sansextrabold";
     font-size: 16px;
     color: #454545;
 }
-.right_text {
+.half_right_text {
     font-size: 16px;
     color: #454545;
     font-family: "open_sanslight";
@@ -293,29 +293,29 @@ h3 {
     text-overflow: clip;
     overflow: hidden;
 }
-.right_read {
+.half_right_read {
     font-size: 18px;
     font-family: "league_gothicregular";
     float: right;
 }
-.right_read a {
+.half_right_read a {
     text-decoration: none;
     color: #454545;
 }
-.right_icon {
+.half_right_icon {
     width: 49px;
     height: 49px;
     float: left;
     margin-right: 17px;
     background-image: url(../img/sprite2.png);
 }
-.right_icon--second {
+.half_right_icon--second {
     background-position: -50px 0;
 }
-.right_icon--third {
+.half_right_icon--third {
     background-position: -100px 0;
 }
-.right {
+.half_right {
     margin-left: 28px;
 }
 .logos {
@@ -334,22 +334,22 @@ h3 {
     width: 100%;
     height: 197px;
 }
-.column {
+.grey_column {
     float: left;
 }
-.column--pingbuller, .column--news {
+.grey_column--pingbuller, .grey_column--news {
     width: 30%;
 }
-.column--recent {
+.grey_column--recent {
     width: 40%;
 }
-.column_header {
+.grey_column_header {
     font-size: 30px;
     color: #454545;
     font-family: "league_gothicregular";
     margin-bottom: 7px;
 }
-.column_text {
+.grey_column_text {
     font-size: 16px;
     color: #787878;
     font-family: "open_sanslight";
@@ -359,34 +359,34 @@ h3 {
     text-overflow: clip;
     overflow: hidden;
 }
-.column_pingbuller_header {
+.grey_column_pingbuller_header {
     font-size: 48px;
     color: #454545;
     font-family: "league_gothicregular";
     margin-bottom: 6px;
 }
-.er {
+.grey_column_pingbuller_header_er {
     color: #b9b9b9;
 }
-.copy {
+.grey_column_text_copy {
     font-size: 16px;
     color: #c5c5c5;
     font-family: Georgia;
     font-style: italic;
     line-height: 2;
 }
-.column_header--recent, .column_text--recent {
+.grey_column_header--recent, .grey_column_text--recent {
     margin-left: 51px;
     margin-right: 51px;
 }
-.column_text--pingbuller {
+.grey_column_text--pingbuller {
     margin-right: 6px;
     max-width: 288px;
     text-overflow: clip;
     overflow: hidden;
     max-height: 147px;
 }
-.column_header--news, .column_text--news {
+.grey_column_header--news, .grey_column_text--news {
     margin-left: 6px;
 }
 footer {
@@ -400,16 +400,16 @@ footer {
     max-height: 102px;
     overflow: hidden;
 }
-.menu_li--footer {
+.menu_item--footer {
     float: left;
 }
-.menu_li--footer a {
+.menu_item_link--footer {
     margin-left: 0;
     margin-right: 44px;
     margin-bottom: 4px;
     font-size: 20px;
 }
-.menu_li--footer a:hover {
+.menu_item_link--footer:hover {
     border-bottom: 0;
 }
 .author {
@@ -422,6 +422,6 @@ footer {
     right: 0;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
-.as {
+.author_as {
     font-family: "open_sansextrabold";
 }
