@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 20px;
+}
+h3 {
+    margin: 0 auto;
+    width: 310px;
+}
+h2 {
+    width: 430px;
+    margin-left: 100px;
+}
+.text {
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.answers {
+    margin-left: 40px;
+}
+
+#check {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
