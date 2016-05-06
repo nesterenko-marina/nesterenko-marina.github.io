@@ -1,0 +1,23 @@
+#output {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 14px;
+    color: darkslateblue;
+    border: 3px solid dimgrey;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+#reset {
+    float: right;
+    width: 200px;
+    font-size: 20px;
+}
+#startPause {
+    width: 200px;
+    font-size: 20px;
+}
