@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tabs {
+    width: 600px;
+    border: 2px solid #228B22;
+    margin: 0 auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    width: 192px;
+    border: 2px solid #ADFF2F;
+    height: 30px;
+    padding-top: 6px;
+    font-size: 20px;
+    color: black;
+    background-color: #ADFF2F;
+    margin: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.tabs2 {
+    display: none;
+}
+.tabs3 {
+    display: none;
+}
+.tooltips {
+    width: 612px;
+    margin: 0 auto;
+}
+fieldset {
+    padding: 20px;
+    border: 2px solid #4169E0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+button {
+    background-color: #B0C4DE;
+    border: 2px solid #6495ED;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.string {
+    margin: 10px;
+}
+.address {
+    margin-left: 20px;
+}
+.lastname {
+    margin-left: 10px;
+}
+.firstname {
+    margin-left: 8px;
+}
+span {
+    visibility: hidden;
+    border: 2px solid #87CEEB;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
