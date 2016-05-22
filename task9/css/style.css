@@ -173,23 +173,38 @@
     margin-top: 80px;
     text-shadow: 1px 1px 1px black;
 }
+/*change*/
 .violet_about_header {
     font-family: "league_gothicregular";
     font-size: 30px;
     color: white;
+    max-height: 30px;
+    text-overflow: clip;
+    overflow: hidden;
 }
+/*change*/
 .violet_about_text {
     font-family: "open_sanslight";
     font-size: 16px;
     color: white;
-    width: 226px;
+    max-width: 226px;
     margin-top: 19px;
     margin-bottom: 24px;
     line-height: 22px;
     margin-left: 50px;
+    max-height: 112px;
+    text-overflow: clip;
+    overflow: hidden;
 }
 .violet_about_text--first {
     margin-left: 62px;
+}
+/*change*/
+.violet_about_text--first, .violet_about_text--second, .violet_about_text--third {
+    max-width: 226px;
+    max-height: 112px;
+    text-overflow: clip;
+    overflow: hidden;
 }
 .violet_about_read {
     font-family: "league_gothicregular";
@@ -223,12 +238,17 @@
 .violet_about_column {
     float: right;
 }
+.violet_about {
+    width: 33%;
+}
+/*
 .violet_about--first {
     width: 30%;
 }
 .violet_about--second, .violet_about--third {
     width: 35%;
 }
+*/
 main {
     position: absolute;
     top: 1188px;
