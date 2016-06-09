@@ -1,0 +1,61 @@
+h3 {
+	text-align: center;
+	margin-top: 50px;
+}
+.wrapper {
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+ol {
+	margin: 0 auto;
+	display: block;
+	width: 70%;
+}
+li {
+    margin: 10px;
+}
+button {
+	display: block;
+	margin: 20px auto;
+	width: 250px;
+	height: 50px;
+	background-color: #F5F5F5;
+	border: 1px solid black;
+	font-size: 17px;
+	cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #DCDCDC;
+}
+.check {
+	display: none;
+}
+.result {
+	display: none;
+	height: 300px;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -250px;
+	position: fixed;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	opacity: 0;
+}
+.result_text {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.result_ok {
+    position: absolute;
+    margin: 200px 126px 0px;
+}

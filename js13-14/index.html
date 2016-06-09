@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h3>Тест по программированию</h3>
+    <script type="text/template" id="test">
+    <ol>
+    <% for (var i = 0; i < data.length; i++) 
+    {%>
+	<li><%= data[i].question %></li>
+    
+	<ul>
+	<% for (var j = 0; j < data[i].answer.length; j++) { %>
+    <li><input type="radio" name="<%= data[i].name %>" class="checkbox" value="<%= data[i].check[j] %>"><%= data[i].answer[j] %></li>
+    <% }; 
+    %></ul>
+
+    <%}; 
+    %></ol>
+    </script>
+    <button class="check">Проверить мои результаты</button>
+    <div class="result">
+	<p class="result_text"></p>
+	<button class="result_ok">OK</button>
+    </div>
+</div>
+</body>
+</html>
