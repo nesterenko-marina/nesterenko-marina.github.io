@@ -1,0 +1,36 @@
+.wrapper {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.pixabay {
+    width: 25%;
+    vertical-align: bottom;
+}
+.text {
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.button {
+    border-radius: 5px;
+    width: 45px;
+    height: 25px;
+    font-size: 17px;
+    vertical-align: middle;
+    background-color: #A9A9A9;
+    border-color: #A9A9A9;
+}
+.button:hover {
+    background-color: #808080;
+    border-color: #808080;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
